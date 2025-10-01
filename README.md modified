@@ -1,0 +1,55 @@
+# 🧠 AI Component Generator for React
+
+**AI Component Generator** is a developer tool that lets you automatically generate components(UI + logic) for a website using AI. It provides a live **Preview** of the component and a **Code** view side-by-side. You can copy the code or download it as a file for direct integration into your projects.
+
+---
+
+## 🚀 Table of Contents
+
+- [Features](#features)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+  - [Running Locally](#running-locally)
+    
+- [Usage](#usage)  
+  - [Generate Component](#generate-component)  
+  - [Preview Section](#preview-section)  
+  - [Code Section](#code-section)  
+  - [Download / Copy](#download--copy)  
+- [Architecture & Design](#architecture--design)  
+- [Configuration & Options](#configuration--options)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Acknowledgements](#acknowledgements)  
+
+---
+
+## ✨ Features
+
+- **AI-powered generation** of complete website component files (JSX + CSS / styling).  
+- **Live preview** of the component as you generate or fine-tune it.  
+- **Code view** shows the exact source code for the rendered component.  
+- **Copy to clipboard** or **Download as file (.jsx / .js / .tsx)**.  
+- Supports commonly used libraries: props, state, context, hooks, styling (CSS / styled-components) etc.  
+- Extensible — you can plug in more templates or override the generation logic.  
+- Clean and modern UI: split pane for preview + code, dark/light theme support.
+
+---
+
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+- Node.js (version 14+ recommended)  
+- npm or yarn  
+- (Optional) An API key or configuration for your AI backend (if using a hosted model or service)  
+
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/react-ai-component-generator.git
+   cd react-ai-component-generator
